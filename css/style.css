@@ -1,0 +1,267 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    background-color: #590007;
+    width: 100%;
+    
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#menu li {
+    display: inline;
+    margin: 25px;
+    padding: 50px 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#menu li a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+video {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 12px 2px rgba(89, 0, 7, 0.23);
+}
+
+#primertexto{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    text-align: left;
+    margin: 5%;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    margin-top: 0;
+}
+
+#derecha,#izquierda{
+    width: 45% ;
+    padding: 25px;
+    float: left;
+    text-align: center;
+}
+
+
+#izquierda p{
+    font-size: 30px;
+}
+
+#derecha img{
+    width: 45%;
+    box-shadow: 10px 10px 5px 0px rgba(89, 0, 7, 0.5);
+}
+
+#izquierda{
+ padding-top: 150px;   
+}
+
+footer{
+    clear: both;
+    background-color: #590007;
+    color: white;
+    text-decoration: wavy;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+footer p{
+    padding-top: 45px;
+}
+
+#nav img{
+    width: 50px;
+    float:left;
+    padding-left: 20%;
+    padding-top: 0.3%;
+}
+
+#galeria{
+    background-image:url(../imagenes/BackgroundSuperman.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#galeria h1{
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    margin: 5%;
+}
+
+#galeria div{
+    width: 50%;
+    padding-top: 200px;
+}
+
+
+#seccion2,#seccion3,#seccion4{
+    background-color: rgb(6, 15, 82);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+#seccion4{
+    padding-top: 100px;
+}
+
+
+#audio{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 25px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+
+#seccion3 div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    box-shadow: 10px 10px 5px 0px rgba(238, 229, 230, 0.23);
+    display: inline-block;
+    margin: 15px;
+}
+
+#seccion3 div img{
+    width: 100%;
+    height: 100%;
+}
+
+#reparto{
+    background-image:url(../imagenes/header-personajes.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+#seccion4 div div{
+    width: 500px;
+    height: 900px;
+    background-color: red;
+    box-shadow: 10px 10px 5px 0px rgba(238, 229, 230, 0.23);
+    display: inline-block;
+    margin: 15px;
+    overflow: hidden;
+}
+
+
+#seccion4 div{
+    height: 100%;
+    
+}
+
+
+#personajes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    text-align: left;
+    margin: 5%;
+    
+
+}
+#seccion4 div div img{
+    object-fit: cover;
+   
+}
+
+#seccion5 {
+
+    background-color: rgb(134, 115, 22);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+#argumento{
+    background-image:url(../imagenes/escudo\ superman\ nuevo.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+#galeria h2{
+    color: rgb(152, 13, 13);
+    font-size: 80px;
+    text-align: left;
+    margin: 5%;
+}
+
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 0px 10px 5px rgba(89, 0, 7, 0.23);
+}
+
+h4 {
+    font-family: serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+h5 {
+    font-family: serif;
+    font-weight: 3000;
+    font-style: unset;
+    font-size: xx-large;
+    text-align: center;
+    color: aqua;
+    
+}
